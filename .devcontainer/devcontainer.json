@@ -16,7 +16,16 @@
       "extensions": [
         "ms-python.python",
         "vscjava.vscode-java-pack"
-      ]
+      ],
+      "unwantedRecommendations": [
+        "github.copilot",
+        "github.copilot-chat"
+      ],
+      "settings": {
+        "github.copilot.enable": {
+          "*": false
+        }
+      }
     }
   },
   "postCreateCommand": "echo '--- Environment check ---' && python3 --version && java -version && echo '--- Ready. Open README.md to get started. ---'"
