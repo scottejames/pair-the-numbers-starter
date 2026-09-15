@@ -15,7 +15,9 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "vscjava.vscode-java-pack"
+        "vscjava.vscode-java-pack",
+        "-github.copilot",
+        "-github.copilot-chat"
       ],
       "unwantedRecommendations": [
         "github.copilot",
