@@ -1,0 +1,8 @@
+name=04_near_miss_no_pair
+target=16
+expected_i=-1
+expected_j=-1
+numbers=
+6
+9
+14

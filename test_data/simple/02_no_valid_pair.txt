@@ -1,0 +1,8 @@
+name=02_no_valid_pair
+target=100
+expected_i=-1
+expected_j=-1
+numbers=
+1
+2
+3

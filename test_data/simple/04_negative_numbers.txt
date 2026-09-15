@@ -1,0 +1,9 @@
+name=04_negative_numbers
+target=0
+expected_i=0
+expected_j=2
+numbers=
+-3
+4
+3
+90

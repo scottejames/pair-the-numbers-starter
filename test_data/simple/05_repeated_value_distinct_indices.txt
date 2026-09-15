@@ -1,0 +1,8 @@
+name=05_repeated_value_distinct_indices
+target=10
+expected_i=0
+expected_j=1
+numbers=
+5
+5
+1

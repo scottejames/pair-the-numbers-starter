@@ -1,0 +1,7 @@
+name=01_trivial_pair
+target=8
+expected_i=0
+expected_j=1
+numbers=
+3
+5

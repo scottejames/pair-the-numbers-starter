@@ -1,0 +1,9 @@
+name=07_earliest_completing_pair
+target=7
+expected_i=0
+expected_j=2
+numbers=
+3
+3
+4
+4

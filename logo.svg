@@ -1,0 +1,54 @@
+<svg width="980" height="300" viewBox="0 0 980 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pair the Numbers">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1420"/>
+      <stop offset="100%" stop-color="#231627"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.05"/>
+    </pattern>
+    <linearGradient id="beam" x1="247.5" y1="90.6" x2="371.4" y2="-4.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffd9ec" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffd9ec" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="980" height="300" fill="url(#bg)"/>
+  <rect x="0" y="0" width="980" height="300" fill="url(#grid)"/>
+  <rect x="0" y="294" width="980" height="6" fill="#e85fa0"/>
+
+  <!-- a beam catching the match -->
+  <polygon points="234.3,73.4 260.6,107.7 405.6,40 337.2,-49.2" fill="url(#beam)"/>
+
+  <!-- two number tiles snapping together, scattered decoys behind -->
+  <g transform="translate(170,150)">
+    <circle r="112" fill="none" stroke="#e85fa0" stroke-width="2" opacity="0.35"/>
+
+    <g fill="#e85fa0" opacity="0.28">
+      <rect x="-96" y="-78" width="30" height="30" rx="7"/>
+      <rect x="58" y="-84" width="30" height="30" rx="7"/>
+      <rect x="66" y="52" width="30" height="30" rx="7"/>
+      <rect x="-90" y="50" width="30" height="30" rx="7"/>
+    </g>
+
+    <g>
+      <rect x="-64" y="-30" width="56" height="56" rx="10" fill="#2a1c2f" stroke="#e85fa0" stroke-width="3"/>
+      <text x="-36" y="10" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#f7f5f0" text-anchor="middle">7</text>
+
+      <rect x="8" y="-30" width="56" height="56" rx="10" fill="#2a1c2f" stroke="#e85fa0" stroke-width="3"/>
+      <text x="36" y="10" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#f7f5f0" text-anchor="middle">3</text>
+
+      <line x1="-8" y1="-2" x2="8" y2="-2" stroke="#ffd9ec" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-8" y1="8" x2="8" y2="8" stroke="#ffd9ec" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="358" y="112" font-size="40" font-weight="700" letter-spacing="6" fill="#e85fa0">PAIR THE</text>
+    <text x="354" y="212" font-size="106" font-weight="900" letter-spacing="1" fill="#f7f5f0">NUMBERS</text>
+    <line x1="358" y1="230" x2="760" y2="230" stroke="#e85fa0" stroke-width="4"/>
+    <text x="358" y="258" font-size="16" font-weight="600" letter-spacing="3" fill="#ad8a9d">HASH MAP LOOKUP &#183; CODING ASSESSMENT</text>
+  </g>
+</svg>

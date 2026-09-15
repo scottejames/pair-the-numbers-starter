@@ -1,0 +1,12 @@
+name=05_self_pair_trap_disguised
+target=8
+expected_i=-1
+expected_j=-1
+numbers=
+3
+15
+8
+22
+4
+9
+1

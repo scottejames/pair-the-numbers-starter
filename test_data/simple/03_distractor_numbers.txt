@@ -1,0 +1,10 @@
+name=03_distractor_numbers
+target=8
+expected_i=2
+expected_j=3
+numbers=
+10
+20
+3
+5
+30

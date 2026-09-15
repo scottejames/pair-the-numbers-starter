@@ -1,0 +1,9 @@
+name=02_trap_doubled
+target=15
+expected_i=1
+expected_j=2
+numbers=
+4
+6
+9
+11

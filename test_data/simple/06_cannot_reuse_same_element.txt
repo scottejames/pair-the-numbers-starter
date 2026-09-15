@@ -1,0 +1,8 @@
+name=06_cannot_reuse_same_element
+target=8
+expected_i=-1
+expected_j=-1
+numbers=
+4
+1
+2

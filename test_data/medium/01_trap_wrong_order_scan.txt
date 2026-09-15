@@ -1,0 +1,9 @@
+name=01_trap_wrong_order_scan
+target=10
+expected_i=1
+expected_j=2
+numbers=
+1
+4
+6
+9

@@ -1,0 +1,9 @@
+name=08_negative_target
+target=-8
+expected_i=0
+expected_j=1
+numbers=
+-5
+-3
+-1
+4

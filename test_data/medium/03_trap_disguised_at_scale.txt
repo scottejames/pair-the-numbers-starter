@@ -1,0 +1,13 @@
+name=03_trap_disguised_at_scale
+target=15
+expected_i=3
+expected_j=4
+numbers=
+100
+4
+200
+6
+9
+300
+11
+400
